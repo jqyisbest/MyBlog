@@ -25,6 +25,7 @@ install:
   - npm install
 
 script:
+  - hexo clean
   - hexo generate
 
 after_success:
