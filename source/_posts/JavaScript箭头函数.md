@@ -13,6 +13,8 @@ copyright: true
 
 JavaScript箭头函数是 ECMAScript 6中引入的编写函数表达式的一种简便方法。
 
+<!--more-->
+
 例如：
 
 ```javascript
