@@ -3,6 +3,15 @@ title: JavaScript箭头函数
 date: 2019年4月10日14:45:16
 top: 2
 copyright: true
+categories:
+- 理论
+- 编程语言
+- JavaScript
+tags:
+- JavaScript
+- 编程语言
+- 箭头函数
+- 作用域链
 ---
 
 
