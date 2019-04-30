@@ -9,7 +9,6 @@ categories:
 - JavaScript
 tags:
 - JavaScript
-- 编程语言
 - 箭头函数
 - 作用域链
 ---

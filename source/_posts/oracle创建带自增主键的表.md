@@ -5,12 +5,11 @@ copyright: true
 date: 2019-04-30 14:20:51
 categories:
 - 实现
+- 工具代码
 - 数据库
 - oracle
 tags:
-- oracle
-- 数据库
-- 工具代码
+- 自增
 ---
 
 常用的两种方式如下。
