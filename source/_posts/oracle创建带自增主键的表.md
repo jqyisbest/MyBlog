@@ -35,7 +35,7 @@ tags:
    -- Create sequence
    create sequence SEQ_T_BASE_DATA_ALL
    minvalue 1
-   maxvalue 9999999999999
+   maxvalue 99999999999999999999 --Attention:the length of maxvalue can not exceed the length of ID. 
    start with 1
    increment by 1
    cache 50;
