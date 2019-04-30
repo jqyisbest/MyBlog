@@ -1,7 +1,8 @@
 ---
 title: {{ title }}
 date: {{ date }}
+categories: 
 tags: 
-top: 100
+top: 2
 copyright: true
 ---
