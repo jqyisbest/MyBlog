@@ -8,7 +8,7 @@ subtitle: JQYisBest!
 description: Here is the private blog site to record some experience segments of code.
 author: JQY
 language: en
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
