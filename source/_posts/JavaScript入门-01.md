@@ -26,7 +26,7 @@ window.alert("你好");
 
 那么，在哪里写入这条语句呢？
 
-先告诉你结论，**JavaScript脚本应该写在HTML代码的*<script></script>*标签中。**
+先告诉你结论，**JavaScript脚本应该写在HTML代码的*`<script></script>`*标签中。**
 
 我们先来看下在你双击打开一个*.html*文件的时候发生了什么。
 
