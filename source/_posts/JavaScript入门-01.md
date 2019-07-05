@@ -10,6 +10,8 @@ tags:
 - 女友学编程
 ---
 
+<!--more-->
+
 JavaScript 是一门语言，和英语一样。英语用于人与人之间的交流，而JavaScript是用来和Web前端交流的。
 
 >并不是说JavaScript只能用在前端，现在有JavaScript来写后端代码的框架，但JavaScript的大部分用法还是用于前端。
