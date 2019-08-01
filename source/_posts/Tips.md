@@ -14,7 +14,32 @@ tags:
 
 <!--more-->
 
-#Java
+**Java**
 
 1. 开发中不使用sun.*的包，能避免很多坑。
+
+**JavaScript**
+
+1. 屏蔽浏览器错误输出及解除屏蔽
+
+   ```javascript
+     var defaultConsoleError=console.error;
+     var defaultWindowError=window.error;
+     function disableError() {
+         //错误屏蔽
+         window.onerror = function (value) {
+           return true
+         };
+         console.error = function (value) {
+           return true;
+         };
+       }
+     function enableError(){
+         //解除屏蔽
+         window.onerror=defaultWindowError;
+         console.error=defaultConsoleError;
+       }
+   ```
+
+   
 
