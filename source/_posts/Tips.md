@@ -24,7 +24,7 @@ tags:
 
    ```javascript
      var defaultConsoleError=console.error;
-     var defaultWindowError=window.error;
+     var defaultWindowError=window.onerror;
      function disableError() {
          //错误屏蔽
          window.onerror = function (value) {
