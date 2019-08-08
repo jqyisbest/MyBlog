@@ -17,6 +17,7 @@ tags:
 **Java**
 
 1. 开发中不使用sun.*的包，能避免很多坑。
+2. 并发复用实例的时候要考虑 实例是否线程安全，例如JDBC的connection就不是线程安全的。
 
 **JavaScript**
 
