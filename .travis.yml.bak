@@ -1,5 +1,4 @@
 language: node_js
-# hexo deploy throw exception if node version is too high 
 node_js: 
 	- '12.14'
 
