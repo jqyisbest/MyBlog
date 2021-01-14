@@ -18,13 +18,13 @@ jobs:
           version: ${{ matrix.node_version }}
       - name: Setup hexo
         env:
-          ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_PRI }}
+          ACTION_DEPLOY_KEY: ${{ secrets.DEPLOY_ACTION }}
         run: |
           mkdir -p ~/.ssh/
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git config --global user.email "JQYisBest@outlook.com"
+          git config --global user.email "jqyisbest@outlook.com"
           git config --global user.name "jqyisbest"
           npm install hexo-cli -g
           npm install
